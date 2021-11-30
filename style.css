@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gestione box modelli */
+.box-1 {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: red;
+}
+
+.modello-1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+}
+
+.info-1, .info-2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    word-spacing: 5px;
+    color: #ffde24;
+}
+
+.info-1 {
+    top: 75%;
+}
+
+.info-2 {
+    top: 70%;
+}
+/* Gestione box modelli */
