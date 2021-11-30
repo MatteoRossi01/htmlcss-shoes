@@ -8,6 +8,7 @@
     margin: auto;
     width: 100%;
 }
+
 /* Gestione box modelli */
 .box {
     height: 100vh;
@@ -25,6 +26,10 @@
 
 .color-2 {
     background-color: #008c0b;
+}
+
+.color-3 {
+    background-color: #ffde24;
 }
 
 .modello {
@@ -52,11 +57,16 @@
     top: 170%;
 }
 
+.box3 {
+    position: absolute;
+    top: 270%;
+    color: green;
+}
+
 .info-2 {
     position: absolute;
     left: 25%;
 }
-
-
-
 /* Gestione box modelli */
+
+
