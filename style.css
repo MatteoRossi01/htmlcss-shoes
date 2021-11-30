@@ -15,7 +15,6 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     cursor: pointer;
     
 }
@@ -42,7 +41,7 @@
 
 .info, .box1 {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 45px;
@@ -54,12 +53,12 @@
 
 .box2 {
     position: absolute;
-    top: 170%;
+    top: 177%;
 }
 
 .box3 {
     position: absolute;
-    top: 270%;
+    top: 277%;
     color: green;
 }
 
