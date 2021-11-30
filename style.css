@@ -4,27 +4,40 @@
     box-sizing: border-box;
 }
 
+.container {
+    margin: auto;
+    width: 100%;
+}
 /* Gestione box modelli */
-.box-1 {
+.box {
     height: 100vh;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
+    
+}
+
+.color-1 {
     background-color: red;
 }
 
-.modello-1 {
-    position: absolute;
+.color-2 {
+    background-color: #008c0b;
+}
+
+.modello {
+    position: relative;
     top: 40%;
     left: 50%;
     height: 500px;
     transform: translate(-50%, -50%);
 }
 
-.info-1, .info-2{
+.info, .box1 {
     position: absolute;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 45px;
@@ -34,11 +47,16 @@
     color: #ffde24;
 }
 
-.info-2 {
-    top: 75%;
+.box2 {
+    position: absolute;
+    top: 170%;
 }
 
-.info-1 {
-    top: 70%;
+.info-2 {
+    position: absolute;
+    left: 25%;
 }
+
+
+
 /* Gestione box modelli */
